@@ -13,7 +13,7 @@ import {
   type UseFormStateReturn,
 } from "react-hook-form";
 import { Label } from "../ui/label";
-import WarningIcon from "@/assets/svgs/warning-icon.svg?react";
+import WarningIcon from "../../assets/svgs/warning-icon.svg?react";
 
 interface Props<T extends FieldValues> {
   maxCharactersText?: string | ReactNode;
